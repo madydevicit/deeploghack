@@ -40,6 +40,7 @@ if __name__ == '__main__':
     log_main = 'open_stack'
     tau = 0.5
 
+    logger.info('##################### DEBUG #################')
     parser = spell.LogParser(
         indir=input_dir,
         outdir=output_dir,
